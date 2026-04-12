@@ -36,93 +36,16 @@ Limite	O ciclo encerra automaticamente ao atingir 50 cadastros.	Exibe relatório
 ## 💡 Exemplo de uso
 
 ## 💡 Exemplo de uso 01
-
-=== SISTEMA DE PESQUISA DE OPINIÃO ===
-1 - Cadastrar entrevistado
-2 - Relatório Principal (Excelente/Ruim)
-3 - Relatório Global (Planilha Completa)
-4 - Sair
-Escolha uma opção: 1
+<img width="424" height="171" alt="Ex01" src="https://github.com/user-attachments/assets/bfef197b-565d-48c3-8d31-36ec6464bc2f" />
 
 ## 💡 Exemplo de uso 02
-
---- Entrevistado 1 ---
-Digite seu Nome ou 'Esc' para voltar: Marcos Correa
-Digite a idade (3 a 100): 42
-Opinião: 1-EXCELENTE | 2-BOM | 3-RUIM
-Opção: 1
-
---- Entrevistado 2 ---
-Digite seu Nome ou 'Esc' para voltar: esc
-
+<img width="495" height="249" alt="Ex02" src="https://github.com/user-attachments/assets/b1022150-a119-4221-ace4-3259a63761f3" />
 
 ## 💡 Exemplo de uso 03
+<img width="551" height="510" alt="Ex03" src="https://github.com/user-attachments/assets/c079fa1e-dd4f-4c3d-9b8d-77ede3f2aa4a" />
+<img width="451" height="303" alt="Ex04" src="https://github.com/user-attachments/assets/1304e77f-788d-4bd1-a61b-583113fa9695" />
+<img width="440" height="500" alt="Ex05" src="https://github.com/user-attachments/assets/ebb2fe4c-6c9b-4e70-a76c-7f698bfb1834" />
+<img width="723" height="591" alt="Ex06" src="https://github.com/user-attachments/assets/7ebf3d41-2a9b-413e-abf1-957c0a484b2b" />
 
 
---- Entrevistado 9 ---
-Digite seu Nome ou 'Esc' para voltar: Ruth Rocha
-Digite a idade (3 a 100): 50
-Opinião: 1-EXCELENTE | 2-BOM | 3-RUIM
-Opção: 1
-
---- Entrevistado 10 ---
-Digite seu Nome ou 'Esc' para voltar: Leila Toraca
-Digite a idade (3 a 100): 101
-Erro: Idade entre 3 e 100.
-Digite a idade (3 a 100): 95
-Opinião: 1-EXCELENTE | 2-BOM | 3-RUIM
-Opção: 4
-Opção inválida!
-Opção: 3
-
-10 feitos. Continuar? (S/N): s
-
---- Entrevistado 11 ---
-Digite seu Nome ou 'Esc' para voltar: esc
-
-=== SISTEMA DE PESQUISA DE OPINIÃO ===
-1 - Cadastrar entrevistado
-2 - Relatório Principal (Excelente/Ruim)
-3 - Relatório Global (Planilha Completa)
-4 - Sair
-Escolha uma opção: 2
-
-===================================
-        RELATÓRIO PRINCIPAL        
-===================================
-CATEGORIA            |      VOTOS
------------------------------------
-EXCELENTE            |          5
-RUIM                 |          4
------------------------------------
-Total (Exc/Ruim): 9
-
-Pressione Enter para voltar...
-
-=== SISTEMA DE PESQUISA DE OPINIÃO ===
-1 - Cadastrar entrevistado
-2 - Relatório Principal (Excelente/Ruim)
-3 - Relatório Global (Planilha Completa)
-4 - Sair
-Escolha uma opção: 3
-
-=================================================================
-              RELATÓRIO GLOBAL DETALHADO (PLANILHA)              
-=================================================================
-ID   | NOME                      | IDADE  | AVALIAÇÃO   
------------------------------------------------------------------
-1    | Marcos Correa             | 42     | EXCELENTE   
-2    | Marina Dantas             | 39     | RUIM        
-3    | Cloves Lourenço           | 75     | EXCELENTE   
-4    | Matheus Pinho             | 25     | BOM         
-5    | Amilton King              | 48     | EXCELENTE   
-6    | Robson Lee                | 33     | RUIM        
-7    | Macaly Kaukin             | 4      | EXCELENTE   
-8    | Vera Carpa                | 60     | RUIM        
-9    | Ruth Rocha                | 50     | EXCELENTE   
-10   | Leila Toraca              | 95     | RUIM        
------------------------------------------------------------------
-TOTAL GERAL DE ENTREVISTADOS: 10
-
-Pressione Enter para voltar...
 
