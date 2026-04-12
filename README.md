@@ -25,6 +25,8 @@ Processamento: O sistema valida, classifica a opinião e guarda na lista.
 
 Saída: O sistema lê a lista e formata os dados visualmente para o usuário.
 
+<img width="1408" height="768" alt="Fluxograma" src="https://github.com/user-attachments/assets/6a7b26e3-05d1-41ec-bc9a-37bbe9a591cc" />
+
 ## 2. PARA CADA ENTREVISTADO O PROGRAMA SOLICITA:
 - Nome ou voltar para menu 
 - Idade 
@@ -42,29 +44,24 @@ Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim) ou ocorrer
  
 ## 💡 EXEMPLOS DE UTILIZAÇÃO
 
-## 💡 Exemplo de uso 01 "Inicio do programa com Menu principal"
+## 💡 Exemplo de utilização 01 "Inicio do programa com Menu principal"
 <img width="424" height="171" alt="Ex01" src="https://github.com/user-attachments/assets/a97a5ebf-a878-4ccb-863f-f0c7328b0c70" />
 
-## 💡 Exemplo de uso 02 "Entrada de Dados"
+## 💡 Exemplo de utilização 02 "Entrada de Dados"
 <img width="495" height="249" alt="Ex02" src="https://github.com/user-attachments/assets/97d4cf8f-d70e-469c-b739-5d55eee20b19" />
 
-## 💡 Exemplo de uso  03 
-
-## Demonstração de entrada de dados com erro.
+## 💡 Exemplo de utilização  03 "Demonstração de entrada de dados com erro"
 <img width="551" height="510" alt="Ex03" src="https://github.com/user-attachments/assets/84bc52f4-6021-408a-b8fc-cbf3fc47386b" />
 
- ## Relatório principal.
+ ## Exemplo de utilização 04 "Relatório principal"
  - O sistema percorre os dados e "peneira" apenas o que for Excelente ou Ruim. É útil para diagnósticos rápidos de problemas ou sucessos.
 <img width="437" height="563" alt="Ex04" src="https://github.com/user-attachments/assets/f3b35e67-ff96-4920-8170-5d11f25765f4" />
 
- ## Relatório principal.
-- O sistema usa o For novamente para percorrer toda a lista de cadastrados e imprimir na tela de forma organizada, alinhando colunas como se fosse uma tabela de parâmetros técnicos.
-<img width="720" height="828" alt="Ex05" src="https://github.com/user-attachments/assets/09c69e5d-3d8e-43a1-a10c-45bde92b1953" />
-
-## Formatação e Manipulação de Strings.
-Para a exibição da "planilha", o programa utiliza f-strings com especificadores de formato {variavel:<20} que alinha o conteúdo à esquerda preenchendo o espaço restante com caracteres vazios até completar 20 bytes de largura.
+ ## Exemplo de utilização 05 "Relatório principal"
+- O sistema usa o For novamente para percorrer toda a lista de cadastrados e imprimir na tela de forma organizada, alinhando colunas como se fosse uma tabela de parâmetros técnicos.Para a exibição da "planilha", o programa utiliza f-strings com especificadores de formato {variavel:<20} que alinha o conteúdo à esquerda preenchendo o espaço restante com caracteres vazios até completar 20 bytes de largura.
 Isso cria uma interface tabular estática no terminal, simulando uma estrutura de colunas de banco de dados SQL.
 
+<img width="720" height="828" alt="Ex05" src="https://github.com/user-attachments/assets/09c69e5d-3d8e-43a1-a10c-45bde92b1953" />
 
 ## 🚀 TECNOLOGIAS APLICADAS
 
@@ -85,6 +82,8 @@ Isso cria uma interface tabular estática no terminal, simulando uma estrutura d
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="70"/>
 </p>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ![Autor](https://img.shields.io/badge/Autor-Marcos%20Correa-000000?style=for-the-badge&logo=github&logoColor=white)
 
