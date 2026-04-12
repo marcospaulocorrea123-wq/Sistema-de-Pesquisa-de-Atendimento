@@ -28,19 +28,13 @@ O projeto dá ênfase ao uso do FOR em dois momentos críticos:
 - Atualiza os contadores 
 
 ## 4.	REGRAS E RESTRIÇÕES
-- Para garantir a integridade dos dados coletados, foram  implementadas as seguintes restrições em Campo	Regra de Validação	Ação em caso de Erro:
-- Nome	Deve conter apenas letras e espaços.
-    Mensagem de erro e repetição da pergunta.
-- Saída (Esc)	Se digitado "Esc" no campo Nome:
-    O cadastro Retorna de imediato ao Menu Principal com os dados armazenados.
-- Idade	Deve ser um número inteiro entre 3 e 100.
-    Mensagem de erro e repetição da pergunta.
-Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim).
-    Bloqueio de outros números ou letras.
-- O programa possui um "checkpoint"
-    A cada 10 entrevistados e utiliza o operador matemático de módulo (total % 10 == 0).Então o sistema pausa a coleta e pergunta ao usuário se ele deseja continuar ou voltar ao menu. Isso evita que o usuário fique "preso" em um loop longo sem poder visualizar os resultados parciais.
-- Limite
-    O ciclo encerra automaticamente ao atingir 50 cadastros.	Exibe relatório final e encerra o for.
+- Para garantir a integridade dos dados coletados, foram  implementadas as seguintes restrições em caso de Erro:
+- Nome	Deve conter apenas letras e espaços, ou aparecerá uma mensagem de erro e repetição da pergunta.
+- Opção de retorno ao menu por meio da primeira pergunta, digite seu "Nome" ou "Esc" para voltar ao menu principal imediatamente e acessar os dados armazenados.
+- Idade	Deve ser um número inteiro entre 3 e 100, ou caso contrário surgirá uma mensagem de erro e repetição da pergunta.
+Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim) ou ocorrerá uma mensagem de erro e repetição da pergunta.
+- O programa possui um "checkpoint" que a cada 10 entrevistados aciona o operador matemático de módulo (total % 10 == 0) que pausa a coleta e pergunta ao usuário se ele deseja continuar ou voltar ao menu. Isso evita que o usuário fique "preso" em um loop longo sem poder visualizar os resultados parciais.
+- O Limitador do processo será aplicado para encerrar automaticamente quando atingir 50 cadastros.
  
 ## 💡 EXEMPLOS DE UTILIZAÇÃO
 ## 💡 Exemplo de uso 01
