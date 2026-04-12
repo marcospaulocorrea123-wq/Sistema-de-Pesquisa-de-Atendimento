@@ -12,13 +12,21 @@ Este sistema foi desenvolvido para gerenciar pesquisas de satisfação de atendi
 ## 🧠 FUNCIONALIDADES
  ## 1. Estrutura de Repetição FOR
 O projeto dá ênfase ao uso do FOR em dois momentos críticos:
-1.	Coleta Limitada: O for i in range(len(dados) + 1, 51) garante que o teto de 50 entrevistas seja respeitado, automatizando a numeração dos IDs.
+1.	Coleta Limitada: O for i in range (len(dados) + 1, 51) garante que o teto de 50 entrevistas seja respeitado, automatizando a numeração dos IDs.
 2.	Processamento de Planilha: O for p in dados_entrevistados percorre a lista de objetos para renderizar a tabela global com alinhamento preciso de colunas.
+3.	Resumo do Fluxo Lógico
+Entrada: Usuário digita os dados.
+
+Processamento: O sistema valida, classifica a opinião e guarda na lista.
+
+Saída: O sistema lê a lista e formata os dados visualmente para o usuário.
+
+
    
-## 2. O programa inicia com contadores zerados, entra em um laço de repetição (até 50 pessoas) e opera em um loop contínuo, apresentando quatro opções principais:
+## 2. O PROGRAMA INICIA COM CONTADORES ZERADOS, ENTRA EM UM LAÇO DE REPETIÇÃO (ATÉ 50 PESSOAS) E OPERA EM UM LOOP CONTÍNUO, APRESENTANDO QUATRO OPÇÕES PRINCIPAIS:
 - Cadastrar entrevistado: Inicia o fluxo de coleta de dados.
-- Relatório Principal: Exibe a contagem atual detalhada
-- Relatório Global: (Atalho para o relatório) Exibe a visão geral dos dados.
+
+
 - Sair: Finaliza a execução do script.
 
 ## 3. PARA CADA ENTREVISTADO O PROGRAMA SOLICITA:
@@ -37,17 +45,25 @@ Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim) ou ocorrer
 - O Limitador do processo será aplicado para encerrar automaticamente quando atingir 50 cadastros.
  
 ## 💡 EXEMPLOS DE UTILIZAÇÃO
-## 💡 Exemplo de uso 01
-<img width="424" height="171" alt="Ex01" src="https://github.com/user-attachments/assets/bfef197b-565d-48c3-8d31-36ec6464bc2f" />
+## 💡 Exemplo de uso 01 "Inicio do programa com Menu principal"
+<img width="424" height="171" alt="Ex01" src="https://github.com/user-attachments/assets/a97a5ebf-a878-4ccb-863f-f0c7328b0c70" />
 
-## 💡 Exemplo de uso 02
-<img width="495" height="249" alt="Ex02" src="https://github.com/user-attachments/assets/b1022150-a119-4221-ace4-3259a63761f3" />
+## 💡 Exemplo de uso 02 "Entrada de Dados"
+<img width="495" height="249" alt="Ex02" src="https://github.com/user-attachments/assets/97d4cf8f-d70e-469c-b739-5d55eee20b19" />
 
-## 💡 Exemplo de uso 03
-<img width="551" height="510" alt="Ex03" src="https://github.com/user-attachments/assets/c079fa1e-dd4f-4c3d-9b8d-77ede3f2aa4a" />
-<img width="451" height="303" alt="Ex04" src="https://github.com/user-attachments/assets/1304e77f-788d-4bd1-a61b-583113fa9695" />
-<img width="440" height="500" alt="Ex05" src="https://github.com/user-attachments/assets/ebb2fe4c-6c9b-4e70-a76c-7f698bfb1834" />
-<img width="723" height="591" alt="Ex06" src="https://github.com/user-attachments/assets/7ebf3d41-2a9b-413e-abf1-957c0a484b2b" />
+## 💡 Exemplo de uso  03 
+## Demonstração de entrada de dados com erro.
+<img width="551" height="510" alt="Ex03" src="https://github.com/user-attachments/assets/84bc52f4-6021-408a-b8fc-cbf3fc47386b" />
+ ## Relatório principal.
+ - O sistema percorre os dados e "peneira" apenas o que for Excelente ou Ruim. É útil para diagnósticos rápidos de problemas ou sucessos.
+<img width="437" height="563" alt="Ex04" src="https://github.com/user-attachments/assets/f3b35e67-ff96-4920-8170-5d11f25765f4" />
+ ## Relatório principal.
+- O sistema usa o For novamente para percorrer toda a lista de cadastrados e imprimir na tela de forma organizada, alinhando colunas como se fosse uma tabela de parâmetros técnicos.
+<img width="720" height="828" alt="Ex05" src="https://github.com/user-attachments/assets/09c69e5d-3d8e-43a1-a10c-45bde92b1953" />
+## Formatação e Manipulação de Strings.
+Para a exibição da "planilha", o programa utiliza f-strings com especificadores de formato {variavel:<20} que alinha o conteúdo à esquerda preenchendo o espaço restante com caracteres vazios até completar 20 bytes de largura.
+Isso cria uma interface tabular estática no terminal, simulando uma estrutura de colunas de banco de dados SQL.
+
 
 ## 🚀 TECNOLOGIAS APLICADAS
 <p align="center">
