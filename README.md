@@ -1,13 +1,13 @@
-# ⚡ Sistema de Pesquisa de Atendimento
+# ⚡ SISTEMA PESQUISA DE OPINIÃO SOBRE ATENDIMENTO
 
 ![Status](https://img.shields.io/badge/Status-Concluído-green?style=for-the-badge)
 
-## 📌 Sobre o Projeto
+## 📌 SOBRE O PROJETO
 
 Este sistema foi desenvolvido para gerenciar pesquisas de satisfação de atendimento ao cliente. Ele permite o cadastro de até 50 entrevistados, validação de dados em tempo real e geração de relatórios estratégicos e analíticos. O projeto foca na aplicação prática de Estruturas de Repetição (FOR/WHILE) e manipulação de coleções de dados em Python.
 
 
-## 🧠 Funcionalidades
+## 🧠 FUNCIONALIDADES
 
 ## 1. O programa inicia com contadores zerados, entra em um laço de repetição (até 50 pessoas) e opera em um loop contínuo, apresentando quatro opções principais:
 - Cadastrar entrevistado: Inicia o fluxo de coleta de dados.
@@ -16,13 +16,13 @@ Este sistema foi desenvolvido para gerenciar pesquisas de satisfação de atendi
 - Sair: Finaliza a execução do script.
 
 
-## 2. Para cada entrevistado o programa Solicita:
+## 2. PARA CADA ENTREVISTADO O PROGRAMA SOLICITA:
 - Nome ou voltar para menu 
 - Idade 
 - Opinião 
 - Atualiza os contadores 
 
-## 3.	Regras e Restrições
+## 3.	REGRAS E RESTRIÇÕES
 - Para garantir a integridade dos dados coletados, foram  implementadas as seguintes restrições em Campo	Regra de Validação	Ação em caso de Erro:
 - Nome	Deve conter apenas letras e espaços.
     Mensagem de erro e repetição da pergunta.
@@ -37,7 +37,7 @@ Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim).
 - Limite
     O ciclo encerra automaticamente ao atingir 50 cadastros.	Exibe relatório final e encerra o for.
 
-## 💡 Exemplo de uso
+## 💡 EXEMPLOS DE UTILIZAÇÃO
 
 ## 💡 Exemplo de uso 01
 <img width="424" height="171" alt="Ex01" src="https://github.com/user-attachments/assets/bfef197b-565d-48c3-8d31-36ec6464bc2f" />
