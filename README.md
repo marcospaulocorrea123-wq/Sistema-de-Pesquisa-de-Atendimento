@@ -9,29 +9,33 @@ Este sistema foi desenvolvido para gerenciar pesquisas de satisfação de atendi
 
 ## 🧠 Funcionalidades
 
-1. O programa inicia com contadores zerados, entra em um laço de repetição (até 50 pessoas) e opera em um loop contínuo, apresentando quatro opções principais:
+## 1. O programa inicia com contadores zerados, entra em um laço de repetição (até 50 pessoas) e opera em um loop contínuo, apresentando quatro opções principais:
 - Cadastrar entrevistado: Inicia o fluxo de coleta de dados.
 - Relatório Principal: Exibe a contagem atual detalhada
 - Relatório Global: (Atalho para o relatório) Exibe a visão geral dos dados.
 - Sair: Finaliza a execução do script.
 
 
-2. Para cada entrevistado o programa Solicita:
-
+## 2. Para cada entrevistado o programa Solicita:
 - Nome ou voltar para menu 
 - Idade 
 - Opinião 
 - Atualiza os contadores 
-O programa possui um "checkpoint" a cada 10 entrevistados e utiliza o operador matemático de módulo (total % 10 == 0).Então o sistema pausa a coleta e pergunta ao usuário se ele deseja continuar ou voltar ao menu. Isso evita que o usuário fique "preso" em um loop longo sem poder visualizar os resultados parciais.
 
-3.	Regras e Restrições
-Para garantir a integridade dos dados coletados, foram  implementadas as seguintes restrições:
-Campo	Regra de Validação	Ação em caso de Erro
-Nome	Deve conter apenas letras e espaços.	Mensagem de erro e repetição da pergunta.
-Saída (Esc)	Se digitado "Esc" no campo Nome, o cadastro é cancelado.	Retorno imediato ao Menu Principal.
-Idade	Deve ser um número inteiro entre 3 e 100.	Mensagem de erro e repetição da pergunta.
-Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim).	Bloqueio de outros números ou letras.
-Limite	O ciclo encerra automaticamente ao atingir 50 cadastros.	Exibe relatório final e encerra o for.
+## 3.	Regras e Restrições
+- Para garantir a integridade dos dados coletados, foram  implementadas as seguintes restrições em Campo	Regra de Validação	Ação em caso de Erro:
+- Nome	Deve conter apenas letras e espaços.
+    Mensagem de erro e repetição da pergunta.
+- Saída (Esc)	Se digitado "Esc" no campo Nome:
+    O cadastro Retorna de imediato ao Menu Principal com os dados armazenados.
+- Idade	Deve ser um número inteiro entre 3 e 100.
+    Mensagem de erro e repetição da pergunta.
+Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim).
+    Bloqueio de outros números ou letras.
+- O programa possui um "checkpoint"
+    A cada 10 entrevistados e utiliza o operador matemático de módulo (total % 10 == 0).Então o sistema pausa a coleta e pergunta ao usuário se ele deseja continuar ou voltar ao menu. Isso evita que o usuário fique "preso" em um loop longo sem poder visualizar os resultados parciais.
+- Limite
+    O ciclo encerra automaticamente ao atingir 50 cadastros.	Exibe relatório final e encerra o for.
 
 ## 💡 Exemplo de uso
 
