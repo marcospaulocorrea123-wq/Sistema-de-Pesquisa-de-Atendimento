@@ -16,7 +16,7 @@ Este sistema foi desenvolvido para gerenciar pesquisas de satisfação de atendi
 
  ## Estrutura de Repetição "FOR" .
 
-- Este projeto dá ênfase ao uso da estrutura de repetição "FOR" aplicando a Coleta por um limitador de dados de "i in range (len(dados) + 1, 51)", afim de garantir que o limite de 50 entrevistas seja respeitado, automatizando a numeração dos IDs.Esse range pode ser editado como por exemplo para 500 entrevistados e para um PC moderno, podemos usar um "FOR" para coletar milhões de entrevistas antes de esgotar a memória, já que cada linha de texto ocupa poucos bytes.
+- Este projeto dá ênfase ao uso da estrutura de repetição (FOR/WHILE) aplicando a Coleta por um limitador de dados de "i in range (len(dados) + 1, 51)", afim de garantir que o limite de 50 entrevistas seja respeitado, automatizando a numeração dos IDs.Esse range pode ser editado como por exemplo para 500 entrevistados e para um PC moderno, podemos usar um "FOR" para coletar milhões de entrevistas antes de esgotar a memória, já que cada linha de texto ocupa poucos bytes.
 - O programa possui um "checkpoint" que a cada 10 entrevistados aciona o operador matemático de módulo (total % 10 == 0) que pausa a coleta e pergunta ao usuário se ele deseja continuar ou voltar ao menu. Isso evita que o usuário fique "preso" em um loop longo sem poder visualizar os resultados parciais.
 
 ## Resumo do Fluxo Lógico.
@@ -57,25 +57,18 @@ Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim) ou ocorrer
 <img width="551" height="510" alt="Ex03" src="https://github.com/user-attachments/assets/84bc52f4-6021-408a-b8fc-cbf3fc47386b" />
 
  ## Exemplo de utilização 04 "Relatório principal"
- - O sistema percorre os dados e realiza um filtro nas categorias"Excelente ou Ruim". Isso é útil para diagnósticos rápidos para solução de problemas e visuão de metas.
+ - O sistema percorre os dados e realiza um filtro nas categorias"Excelente ou Ruim". Isso é útil para diagnósticos rápidos para solução de problemas e visão de metas.
 <img width="437" height="563" alt="Ex04" src="https://github.com/user-attachments/assets/f3b35e67-ff96-4920-8170-5d11f25765f4" />
 
  ## Exemplo de utilização 05 "Relatório principal"
-- O sistema usa o For novamente para percorrer toda a lista de cadastrados e imprimir na tela de forma organizada, alinhando colunas como se fosse uma tabela de parâmetros técnicos.Para a exibição da "planilha", o programa utiliza f-strings com especificadores de formato {variavel:<20} que alinha o conteúdo à esquerda preenchendo o espaço restante com caracteres vazios até completar 20 bytes de largura.
+- O sistema usa o "For" novamente para percorrer toda a lista de cadastrados e imprimir na tela de forma organizada, alinhando colunas como se fosse uma tabela de parâmetros técnicos.Para a exibição da "planilha", o programa utiliza f-strings com especificadores de formato {variavel:<20} que alinha o conteúdo à esquerda preenchendo o espaço restante com caracteres vazios até completar 20 bytes de largura.
 Isso cria uma interface tabular estática no terminal, simulando uma estrutura de colunas de banco de dados SQL.
 
 <img width="720" height="828" alt="Ex05" src="https://github.com/user-attachments/assets/09c69e5d-3d8e-43a1-a10c-45bde92b1953" />
 
 ## 🚀 TECNOLOGIAS APLICADAS
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="70"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="70"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="70"/>
-</p>
-
+<img width="2268" height="464" alt="badges" src="https://github.com/user-attachments/assets/04105329-7c0b-4709-a306-c78ca0a87fa6" />
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
