@@ -1,0 +1,99 @@
+# Pesquisa de Satisfação de Atendimento
+# Inicialização
+dados_entrevistados = []  # Lista para armazenar os dados (planilha)
+excelente = 0
+bom = 0
+ruim = 0
+
+while True:
+    print("\n=== SISTEMA DE PESQUISA DE OPINIÃO ===")
+    print("1 - Cadastrar entrevistado")
+    print("2 - Relatório Principal (Excelente/Ruim)")
+    print("3 - Relatório Global (Planilha Completa)")
+    print("4 - Sair")
+    
+    opcao_menu = input("Escolha uma opção: ")
+
+    if opcao_menu == '1':
+        for i in range(len(dados_entrevistados) + 1, 51):
+            print(f"\n--- Entrevistado {i} ---")
+            
+            # Validação do Nome
+            while True:
+                nome = input("Digite seu Nome ou 'Esc' para voltar: ").strip()
+                if nome.lower() == 'esc': break
+                if nome.replace(" ", "").isalpha() and len(nome) > 0: break
+                print("Erro: Nome inválido.")
+            
+            if nome.lower() == 'esc': break 
+
+            # Validação Idade
+            while True:
+                try:
+                    idade = int(input("Digite a idade (3 a 100): "))
+                    if 3 <= idade <= 100: break
+                    else: print("Erro: Idade entre 3 e 100.")
+                except ValueError:
+                    print("Erro: Digite um número inteiro.")
+
+            # Opinião
+            print("Opinião: 1-EXCELENTE | 2-BOM | 3-RUIM")
+            while True:
+                op = input("Opção: ")
+                if op in ['1', '2', '3']: break
+                print("Opção inválida!")
+
+            # Mapeamento e Contabilização
+            categorias = {'1': 'EXCELENTE', '2': 'BOM', '3': 'RUIM'}
+            status_atual = categorias[op]
+            
+            if op == '1': excelente += 1
+            elif op == '2': bom += 1
+            elif op == '3': ruim += 1
+            
+            # Salva na "Planilha"
+            dados_entrevistados.append({
+                "ID": i,
+                "Nome": nome,
+                "Idade": idade,
+                "Status": status_atual
+            })
+
+            if len(dados_entrevistados) % 10 == 0:
+                cont = input(f"\n{len(dados_entrevistados)} feitos. Continuar? (S/N): ").upper()
+                if cont == 'N': break
+
+    elif opcao_menu == '2':
+        # RELATÓRIO PRINCIPAL (Apenas categorias Excelente e Ruim)
+        print("\n" + "="*35)
+        print(f"{'RELATÓRIO PRINCIPAL':^35}")
+        print("="*35)
+        print(f"{'CATEGORIA':<20} | {'VOTOS':>10}")
+        print("-" * 35)
+        print(f"{'EXCELENTE':<20} | {excelente:>10}")
+        print(f"{'RUIM':<20} | {ruim:>10}")
+        print("-" * 35)
+        print(f"Total (Exc/Ruim): {excelente + ruim}")
+        input("\nPressione Enter para voltar...")
+
+    elif opcao_menu == '3':
+        # RELATÓRIO GLOBAL (Formato de Planilha)
+        print("\n" + "="*65)
+        print(f"{'RELATÓRIO GLOBAL DETALHADO (PLANILHA)':^65}")
+        print("="*65)
+        # Cabeçalho da Planilha
+        print(f"{'ID':<4} | {'NOME':<25} | {'IDADE':<6} | {'AVALIAÇÃO':<12}")
+        print("-" * 65)
+        
+        for p in dados_entrevistados:
+            print(f"{p['ID']:<4} | {p['Nome']:<25} | {p['Idade']:<6} | {p['Status']:<12}")
+            
+        print("-" * 65)
+        print(f"TOTAL GERAL DE ENTREVISTADOS: {len(dados_entrevistados)}")
+        input("\nPressione Enter para voltar...")
+
+    elif opcao_menu == '4':
+        print("Sistema encerrado.")
+        break
+    else:
+        print("Opção inválida!")
