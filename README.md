@@ -26,6 +26,8 @@ Este sistema foi desenvolvido para gerenciar pesquisas de satisfação de atendi
 - Processamento: O sistema valida, classifica a opinião e guarda na lista.
 
 - Saída: O sistema lê a lista e formata os dados visualmente para o usuário.
+  
+- O diagrama abaixo detalha a lógica de decisão e os loops de repetição implementados:
 
 <img width="1408" height="768" alt="Fluxograma" src="https://github.com/user-attachments/assets/6a7b26e3-05d1-41ec-bc9a-37bbe9a591cc" />
 
@@ -55,7 +57,7 @@ Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim) ou ocorrer
 <img width="551" height="510" alt="Ex03" src="https://github.com/user-attachments/assets/84bc52f4-6021-408a-b8fc-cbf3fc47386b" />
 
  ## Exemplo de utilização 04 "Relatório principal"
- - O sistema percorre os dados e realiza um filtro nas categorias"Excelente ou Ruim". Isso é útil para diagnósticos rápidos para solução de problemas visualizão metas.
+ - O sistema percorre os dados e realiza um filtro nas categorias"Excelente ou Ruim". Isso é útil para diagnósticos rápidos para solução de problemas e visuão de metas.
 <img width="437" height="563" alt="Ex04" src="https://github.com/user-attachments/assets/f3b35e67-ff96-4920-8170-5d11f25765f4" />
 
  ## Exemplo de utilização 05 "Relatório principal"
@@ -71,21 +73,13 @@ Isso cria uma interface tabular estática no terminal, simulando uma estrutura d
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="70"/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://img.icons8.com/color/96/000000/lightning-bolt.png" height="70"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="70"/>
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="70"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="70"/>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="70"/>
-</p>
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
+</p>
+<p align="center">
 ![Autor](https://img.shields.io/badge/Autor-Marcos%20Correa-000000?style=for-the-badge&logo=github&logoColor=white)
-
+</p>
 
