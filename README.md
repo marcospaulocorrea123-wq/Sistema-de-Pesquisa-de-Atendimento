@@ -63,8 +63,12 @@ Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim) ou ocorrer
  ## Exemplo de utilização 05 "Relatório principal"
 - O sistema usa o "For" novamente para percorrer toda a lista de cadastrados e imprimir na tela de forma organizada, alinhando colunas como se fosse uma tabela de parâmetros técnicos.Para a exibição da "planilha", o programa utiliza f-strings com especificadores de formato {variavel:<20} que alinha o conteúdo à esquerda preenchendo o espaço restante com caracteres vazios até completar 20 bytes de largura.
 Isso cria uma interface tabular estática no terminal, simulando uma estrutura de colunas de banco de dados SQL.
+## Exemplo de utilização 06 "Opção do Menu 04 - Sair"
+- Sair é o mecanismo de encerramento controlado do ciclo de vida do programa e Tecnicamente, ela é a instrução que interrompe o Main Loop (o laço while True).
 
-<img width="720" height="828" alt="Ex05" src="https://github.com/user-attachments/assets/09c69e5d-3d8e-43a1-a10c-45bde92b1953" />
+- O a figura abaixo detalha o que acontece nos bastidores quando essa opção é selecionada:
+
+<img width="874" height="350" alt="Ex06" src="https://github.com/user-attachments/assets/5d567111-6237-4cdb-b92a-2dfcf7d6545f" />
 
 ## 🚀 TECNOLOGIAS APLICADAS
 
