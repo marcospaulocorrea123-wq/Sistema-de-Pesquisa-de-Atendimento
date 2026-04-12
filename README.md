@@ -14,47 +14,48 @@ Este sistema foi desenvolvido para gerenciar pesquisas de satisfação de atendi
 
 ## 🧠 FUNCIONALIDADES
 
- ## 1. Estrutura de Repetição FOR
-O projeto dá ênfase ao uso do FOR em dois momentos críticos:
-1.	Coleta Limitada: O for i in range (len(dados) + 1, 51) garante que o teto de 50 entrevistas seja respeitado, automatizando a numeração dos IDs.
-2.	Processamento de Planilha: O for p in dados_entrevistados percorre a lista de objetos para renderizar a tabela global com alinhamento preciso de colunas.
-3.	Resumo do Fluxo Lógico
-Entrada: Usuário digita os dados.
+ ## Estrutura de Repetição "FOR" .
 
-Processamento: O sistema valida, classifica a opinião e guarda na lista.
+- Este projeto dá ênfase ao uso da estrutura de repetição "FOR" aplicando a Coleta por um limitador de dados de "i in range (len(dados) + 1, 51)", afim de garantir que o limite de 50 entrevistas seja respeitado, automatizando a numeração dos IDs.Esse range pode ser editado como por exemplo para 500 entrevistados e para um PC moderno, podemos usar um "FOR" para coletar milhões de entrevistas antes de esgotar a memória, já que cada linha de texto ocupa poucos bytes.
+- O programa possui um "checkpoint" que a cada 10 entrevistados aciona o operador matemático de módulo (total % 10 == 0) que pausa a coleta e pergunta ao usuário se ele deseja continuar ou voltar ao menu. Isso evita que o usuário fique "preso" em um loop longo sem poder visualizar os resultados parciais.
 
-Saída: O sistema lê a lista e formata os dados visualmente para o usuário.
+## Resumo do Fluxo Lógico.
+
+- Entrada: Usuário digita os dados.
+
+- Processamento: O sistema valida, classifica a opinião e guarda na lista.
+
+- Saída: O sistema lê a lista e formata os dados visualmente para o usuário.
 
 <img width="1408" height="768" alt="Fluxograma" src="https://github.com/user-attachments/assets/6a7b26e3-05d1-41ec-bc9a-37bbe9a591cc" />
 
-## 2. PARA CADA ENTREVISTADO O PROGRAMA SOLICITA:
-- Nome ou voltar para menu 
-- Idade 
-- Opinião 
-- Atualiza os contadores 
-
-## 3.	REGRAS E RESTRIÇÕES
+## Regras e Restrições:
 - Para garantir a integridade dos dados coletados, foram  implementadas as seguintes restrições em caso de Erro:
 - Nome	Deve conter apenas letras e espaços, ou aparecerá uma mensagem de erro e repetição da pergunta.
 - Opção de retorno ao menu por meio da primeira pergunta, digite seu "Nome" ou "Esc" para voltar ao menu principal imediatamente e acessar os dados armazenados.
 - Idade	Deve ser um número inteiro entre 3 e 100, ou caso contrário surgirá uma mensagem de erro e repetição da pergunta.
 Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim) ou ocorrerá uma mensagem de erro e repetição da pergunta.
-- O programa possui um "checkpoint" que a cada 10 entrevistados aciona o operador matemático de módulo (total % 10 == 0) que pausa a coleta e pergunta ao usuário se ele deseja continuar ou voltar ao menu. Isso evita que o usuário fique "preso" em um loop longo sem poder visualizar os resultados parciais.
-- O Limitador do processo será aplicado para encerrar automaticamente quando atingir 50 cadastros.
+
  
 ## 💡 EXEMPLOS DE UTILIZAÇÃO
 
-## 💡 Exemplo de utilização 01 "Inicio do programa com Menu principal"
+## Exemplo de utilização 01 "Inicio do programa com Menu principal"
 <img width="424" height="171" alt="Ex01" src="https://github.com/user-attachments/assets/a97a5ebf-a878-4ccb-863f-f0c7328b0c70" />
 
-## 💡 Exemplo de utilização 02 "Entrada de Dados"
+## Exemplo de utilização 02 "Entrada de Dados para cada entrevistado o programa solicita:
+
+- Nome ou voltar para menu 
+- Idade 
+- Opinião
+- Atualiza os contadores
+  
 <img width="495" height="249" alt="Ex02" src="https://github.com/user-attachments/assets/97d4cf8f-d70e-469c-b739-5d55eee20b19" />
 
-## 💡 Exemplo de utilização  03 "Demonstração de entrada de dados com erro"
+## Exemplo de utilização  03 "Demonstração de entrada de dados com erro"
 <img width="551" height="510" alt="Ex03" src="https://github.com/user-attachments/assets/84bc52f4-6021-408a-b8fc-cbf3fc47386b" />
 
  ## Exemplo de utilização 04 "Relatório principal"
- - O sistema percorre os dados e "peneira" apenas o que for Excelente ou Ruim. É útil para diagnósticos rápidos de problemas ou sucessos.
+ - O sistema percorre os dados e realiza um filtro nas categorias"Excelente ou Ruim". Isso é útil para diagnósticos rápidos para solução de problemas visualizão metas.
 <img width="437" height="563" alt="Ex04" src="https://github.com/user-attachments/assets/f3b35e67-ff96-4920-8170-5d11f25765f4" />
 
  ## Exemplo de utilização 05 "Relatório principal"
