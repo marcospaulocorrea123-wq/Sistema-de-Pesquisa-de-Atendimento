@@ -27,9 +27,10 @@ Este sistema foi desenvolvido para gerenciar pesquisas de satisfação de atendi
 
 - Saída: O sistema lê a lista e formata os dados visualmente para o usuário.
   
-- O diagrama abaixo detalha a lógica de decisão e os loops de repetição implementados:
+- O diagrama abaixo no estilo Flowalgorithm detalha a lógica de decisão e os loops de repetição implementados:
 
-<img width="1408" height="768" alt="Fluxograma" src="https://github.com/user-attachments/assets/6a7b26e3-05d1-41ec-bc9a-37bbe9a591cc" />
+<img width="1408" height="768" alt="Fluxograma 02" src="https://github.com/user-attachments/assets/4894bbb3-dbab-493e-beb6-380a860c1da0" />
+
 
 ## Regras e Restrições:
 - Para garantir a integridade dos dados coletados, foram  implementadas as seguintes restrições em caso de Erro:
