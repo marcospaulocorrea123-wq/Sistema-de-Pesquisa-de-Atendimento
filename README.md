@@ -72,11 +72,11 @@ Isso cria uma interface tabular estática no terminal, simulando uma estrutura d
 <img width="720" height="828" alt="Ex05" src="https://github.com/user-attachments/assets/db6f5d37-eb61-4eac-858e-2e4034b8c926" />
 
 ## Exemplo de utilização 06 "Opção do Menu 04 - Sair"
-- Sair é o mecanismo de encerramento controlado do ciclo de vida do programa e Tecnicamente, ela é a instrução que interrompe o Main Loop (o laço while True).
+- Sair é o mecanismo de encerramento controla o ciclo de vida do programa e Tecnicamente, ela é a instrução que interrompe o Main Loop (o laço while True) e finaliza o processo perdendo todo ciclo de dados.Para perca de dados cabe uma melhoria que vamos atualizar assim que estudarmos os conceitos de banco de dados e preservação dos mesmos e sistema de login.
 
-- O a figura abaixo detalha o que acontece nos bastidores quando essa opção é selecionada:
+- O a figura abaixo detalha o que acontece nos bastidores quando essa opção é ativada o sitema encerra o acesso e o usuario deve começar a coletar os dados novamente.
 
-<img width="874" height="350" alt="Ex06" src="https://github.com/user-attachments/assets/5d567111-6237-4cdb-b92a-2dfcf7d6545f" />
+<img width="1159" height="585" alt="Ex06" src="https://github.com/user-attachments/assets/2bcdc78d-505e-4dae-ae03-c441f2b46bd5" />
 
 ## 🚀 TECNOLOGIAS APLICADAS
 
