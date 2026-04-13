@@ -1,4 +1,4 @@
-# ⚡ SISTEMA PESQUISA DE OPINIÃO SOBRE ATENDIMENTO
+<img width="5084" height="820" alt="Ex07" src="https://github.com/user-attachments/assets/5ce79dac-40d8-4c54-9bfc-3f570672b214" />
 
 ![Status](https://img.shields.io/badge/Status-Concluído-green?style=for-the-badge)
 
@@ -79,3 +79,6 @@ Isso cria uma interface tabular estática no terminal, simulando uma estrutura d
 ![Autor](https://img.shields.io/badge/Autor-Marcos%20Correa-000000?style=for-the-badge&logo=github&logoColor=white)
 
 
+<p align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%8E%A8_SISTEMA_PESQUISA_DE_OPINI%C3%83O_SOBRE_ATENDIMENTO_%F0%9F%8E%A8-3670A0?style=for-the-badge&logo=customer-reviews&logoColor=white" alt="Título do Projeto com Paletas de Cores">
+</p>
