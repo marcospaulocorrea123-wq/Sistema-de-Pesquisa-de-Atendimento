@@ -42,6 +42,7 @@ Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim) ou ocorrer
 ## 💡 EXEMPLOS DE UTILIZAÇÃO
 
 ## Exemplo de utilização 01 "Inicio do programa com Menu principal"
+
 <img width="424" height="171" alt="Ex01" src="https://github.com/user-attachments/assets/a97a5ebf-a878-4ccb-863f-f0c7328b0c70" />
 
 ## Exemplo de utilização 02 "Entrada de Dados para cada entrevistado o programa solicita:
@@ -54,15 +55,22 @@ Opinião	Deve ser obrigatoriamente 1 (Excelente), 2 (Bom) ou 3 (Ruim) ou ocorrer
 <img width="495" height="249" alt="Ex02" src="https://github.com/user-attachments/assets/97d4cf8f-d70e-469c-b739-5d55eee20b19" />
 
 ## Exemplo de utilização  03 "Demonstração de entrada de dados com erro"
+
 <img width="551" height="510" alt="Ex03" src="https://github.com/user-attachments/assets/84bc52f4-6021-408a-b8fc-cbf3fc47386b" />
 
  ## Exemplo de utilização 04 "Relatório principal"
+ 
  - O sistema percorre os dados e realiza um filtro nas categorias"Excelente ou Ruim". Isso é útil para diagnósticos rápidos para solução de problemas e visão de metas.
+   
 <img width="437" height="563" alt="Ex04" src="https://github.com/user-attachments/assets/f3b35e67-ff96-4920-8170-5d11f25765f4" />
 
- ## Exemplo de utilização 05 "Relatório principal"
+ ## Exemplo de utilização 05 "Relatório Global"
+ 
 - O sistema usa o "For" novamente para percorrer toda a lista de cadastrados e imprimir na tela de forma organizada, alinhando colunas como se fosse uma tabela de parâmetros técnicos.Para a exibição da "planilha", o programa utiliza f-strings com especificadores de formato {variavel:<20} que alinha o conteúdo à esquerda preenchendo o espaço restante com caracteres vazios até completar 20 bytes de largura.
 Isso cria uma interface tabular estática no terminal, simulando uma estrutura de colunas de banco de dados SQL.
+
+<img width="720" height="828" alt="Ex05" src="https://github.com/user-attachments/assets/db6f5d37-eb61-4eac-858e-2e4034b8c926" />
+
 ## Exemplo de utilização 06 "Opção do Menu 04 - Sair"
 - Sair é o mecanismo de encerramento controlado do ciclo de vida do programa e Tecnicamente, ela é a instrução que interrompe o Main Loop (o laço while True).
 
@@ -79,6 +87,4 @@ Isso cria uma interface tabular estática no terminal, simulando uma estrutura d
 ![Autor](https://img.shields.io/badge/Autor-Marcos%20Correa-000000?style=for-the-badge&logo=github&logoColor=white)
 
 
-<p align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%8E%A8_SISTEMA_PESQUISA_DE_OPINI%C3%83O_SOBRE_ATENDIMENTO_%F0%9F%8E%A8-3670A0?style=for-the-badge&logo=customer-reviews&logoColor=white" alt="Título do Projeto com Paletas de Cores">
-</p>
+
